@@ -1,0 +1,152 @@
+﻿body {
+    background-color: white;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: lighter;
+}
+
+h1 {
+    color: black;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+}
+
+/*LOGO*/
+.avatar {
+    width: 500px;
+    margin: 0 auto;
+    height: 500px;
+    display: block;
+    box-shadow: 10px;
+    margin-bottom: 5px;
+}
+
+
+/*BASLIK*/
+.main-header {
+    color: black;
+    margin: 0 auto;
+    display: block;
+    font-weight:100;
+}
+
+
+
+
+/*Login btn*/
+.log-btn {
+    background-image: url("../../img/login.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    font-size: 35px;
+    width: 505px;
+    height: 70px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 35px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.log-btn:hover {
+        background-color: #999999;
+        transition-duration: 1s;
+}
+
+.log-item {
+    top: 50%;
+    left: 50%;
+    font-size: 25px;
+    width: 500px;
+    height: 50px;
+    margin: 0 auto;
+    
+}
+
+.log-input {
+    font-size: 30px;
+    width: 500px;
+    display: block;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    
+}
+
+
+.container {
+    background-color: white;
+    margin: 0 auto;
+}
+
+.container input {
+    font-size: 30px;
+    display: block;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    
+}
+
+.log-item {
+    display: block;
+    
+     
+}
+
+
+
+
+.passwd-link {
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+
+}
+
+.remember {
+    width: 100%;
+    display: block;
+}
+
+.alt {
+    margin: 0 auto;
+    text-align: center;
+}
+
+    .alt input {
+        height: 26px;
+    }
+
+.check {
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.alt2 {
+    display: inline;
+    text-align: justify;
+}
+
+#alert {
+    background-color: red;
+    transition-duration: 1s;
+    color: white;
+    visibility: hidden;
+    width: 500px;
+    text-align: center;
+    margin: 0 auto;
+}
+.alert2 {
+    background-color: red;
+    transition-duration: 1s;
+    color: white;
+    display: block;
+    width: 500px;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+
+}
